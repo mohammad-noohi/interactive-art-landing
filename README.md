@@ -1,7 +1,7 @@
 # Demo
 click on image to see the project online
 
-<a href="">
+<a href="https://mohammad-noohi.github.io/interactive-art-landing/">
   <img src="preview.png">
 </a>
 
