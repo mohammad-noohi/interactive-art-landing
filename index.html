@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive art</title>
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <nav class="nav">
+            <!-- logo -->
+            <a class="nav__log-link" href="#">
+              <img class="nav__logo-img" src="./images/Interactive-ART.png" alt="logo" />
+            </a>
+
+            <!-- menu -->
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">home</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">about</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">how it work</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">clients</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">portfolio</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a class="header__btn header__btn--blue" href="#">contact us</a>
+
+          <!-- mobile icon -->
+          <button class="mobile-menu-icon">
+            <svg class="mobile-menu-icon--close" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 8H15" stroke="#51526C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M1 14H15" stroke="#51526C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M1 2H15" stroke="#51526C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <svg class="mobile-menu-icon--open" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L15.2418 15.0418" stroke="#51526C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M15.2417 1L0.999904 15.0418" stroke="#51526C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="header__bottom">
+          <div class="header__content">
+            <h1 class="header__title">Create a new generation website for your business.</h1>
+            <p class="header__caption">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <div class="header__buttons">
+              <a class="header__btn header__btn--green" href="#">contact us</a>
+              <a class="header__btn header__btn--blue" href="#">see our works</a>
+            </div>
+          </div>
+          <div class="header__img-wrapper">
+            <img class="header__img" src="images/header-img.svg" alt="header image" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- How It Work Section -->
+      <section class="work-sec sec" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+          <div class="work-sec__content">
+            <h5 class="sec__sub-title">how it work</h5>
+            <h2 class="sec__title">three simple step to started working process</h2>
+            <div class="work__cards">
+              <div class="work__card">
+                <h6 class="work__card-title">research project</h6>
+                <p class="work__card-text">There are many variations of passages of Lorem Ipsum available</p>
+              </div>
+
+              <div class="work__card">
+                <h6 class="work__card-title">research project</h6>
+                <p class="work__card-text">There are many variations of passages of Lorem Ipsum available</p>
+              </div>
+
+              <div class="work__card">
+                <h6 class="work__card-title">research project</h6>
+                <p class="work__card-text">There are many variations of passages of Lorem Ipsum available</p>
+              </div>
+            </div>
+
+            <div class="work__img-wrapper">
+              <img class="work__img" src="images/main-img.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials / Comments -->
+      <section class="testimonials-sec sec" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+          <h2 class="sec__title">you’re in a good hand</h2>
+          <p class="testimonials__caption">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+
+          <div class="testimonials__wrapper">
+            <!-- <div class="comments">
+              <div class="comment">
+                <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                <div class="comment__footer">
+                  <div class="comment__profile">
+                    <img class="comment__profile-img" src="images/person-1.png" alt="person image" />
+                  </div>
+                  <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+
+              <div class="comment">
+                <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                <div class="comment__footer">
+                  <div class="comment__profile">
+                    <img class="comment__profile-img" src="images/person-2.png" alt="person image" />
+                  </div>
+                  <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+
+              <div class="comment">
+                <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                <div class="comment__footer">
+                  <div class="comment__profile">
+                    <img class="comment__profile-img" src="images/person-3.png" alt="person image" />
+                  </div>
+                  <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="companies">
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-1.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-2.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-3.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-4.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-5.svg" alt="" />
+              </div>
+            </div> -->
+
+            <div class="comments-slider-wrapper">
+              <!-- Slider main container -->
+              <div class="swiper comments-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-1.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-2.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-3.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-1.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-2.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p class="comment__message">Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.</p>
+                      <div class="comment__footer">
+                        <div class="comment__profile">
+                          <img class="comment__profile-img" src="images/person-3.png" alt="person image" />
+                        </div>
+                        <p class="comment__person-name">Martin Jones, Creative Cons</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <!-- If we need pagination -->
+              <div class="swiper-pagination commenst-pagination"></div>
+            </div>
+
+            <div class="companies">
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-1.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-2.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-3.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-4.svg" alt="" />
+              </div>
+
+              <div class="companie-logo-wrapper">
+                <img class="companie-logo" src="images/logo-5.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-sec sec" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+          <div class="portfolio__content">
+            <h5 class="sec__sub-title">portfolio</h5>
+            <h2 class="sec__title">Three Simple Step To Started Working Process</h2>
+
+            <div class="portfolio__items">
+              <div class="portfolio__item">
+                <img src="images/portfolio-1.jpg" alt="" />
+              </div>
+              <div class="portfolio__item">
+                <img src="images/portfolio-2.jpg" alt="" />
+              </div>
+              <div class="portfolio__item">
+                <img src="images/portfolio-3.jpg" alt="" />
+              </div>
+              <div class="portfolio__item">
+                <img src="images/portfolio-4.jpg" alt="" />
+              </div>
+              <div class="portfolio__item">
+                <img src="images/portfolio-5.jpg" alt="" />
+              </div>
+              <div class="portfolio__item">
+                <img src="images/portfolio-6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-top__content">
+            <p class="footer-top__title">Create a new generation website for your business.</p>
+            <form class="cta-form" action="">
+              <!-- email input group -->
+              <div class="input-group">
+                <input class="email-input" type="email" name="email" id="use-email" placeholder="Email address" />
+                <button class="send-email-btn" type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18.504" height="17.181" viewBox="0 0 18.504 17.181">
+                    <g transform="translate(0 -16.021)">
+                      <g transform="translate(0 16.02)"><path d="M18.121,24.01.939,16.08a.664.664,0,0,0-.79.185.657.657,0,0,0-.016.812l5.65,7.534L.133,32.144a.661.661,0,0,0,.8,1L18.12,25.21a.661.661,0,0,0,0-1.2Z" transform="translate(0 -16.02)" fill="#fff" /></g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer-bottom__content">
+            <p>Copyright © 2018-2019</p>
+            <p>Interactive ART Company All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- theme button  -->
+    <button class="theme-btn">
+      <svg class="sun-icon"><use href="./icons-pack.svg#sun"></use></svg>
+      <svg class="moon-icon"><use href="./icons-pack.svg#moon"></use></svg>
+    </button>
+    <!---------------------------------------- libararys ---------------------------------------->
+    <!-- typewrite lib -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- app.js -->
+    <script src="app.js"></script>
+  </body>
+</html>
